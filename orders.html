@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="orders.css">
+	<title>Обработка заказов</title>
+</head>
+<body>
+	<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-50">
+            <h3>Адрес доставки</h3>
+            <label for="fname"><i class="fa fa-user"></i> Имя </label>
+            <input type="text" id="fname" name="firstname" placeholder="Введите ваше имя">
+
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Введите адрес электронной почты">
+
+            <label for="adr"><i class="fa fa-address-card-o"></i> Aдрес</label>
+            <input type="text" id="adr" name="address" placeholder="Введите адрес">
+
+            <label for="city"><i class="fa fa-institution"></i> Город</label>
+            <input type="text" id="city" name="city" placeholder="Введите город">
+              
+           </div>
+          </div>
+
+          <div class="col-50">
+            <h3>Данные карты</h3>
+            <label for="cname">Введите имя указанное на карте</label>
+            <input type="text" id="cname" name="cardname" placeholder="Имя">
+            <label for="ccnum">Введите номер карты</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="Номер карты">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="Месяц">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="Год">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder=" - - - ">
+              </div>
+            </div>
+          </div>
+
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Принимаете политику конфиденциальности нашего магазина.
+        </label>
+        <input type="submit" value="Оформить заказ" class="btn">
+      </form>
+    </div>
+  </div>
+
+  <div class="col-25">
+    <div class="container">
+      <h4> Корзина
+        <span class="price" style="color:black">
+          <i class="fa fa-shopping-cart"></i>
+          <b>4</b>
+        </span>
+      </h4>
+      <p><a href="#">Товар 1</a> <span class="price">3500 Руб</span></p>
+      <p><a href="#">Товар 2</a> <span class="price">1500 Руб</span></p>
+      <p><a href="#">Товар 3</a> <span class="price">500 Руб</span></p>
+      <hr>
+      <p> Итого: <span class="price" style="color:black"><b>5500 Руб</b></span></p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

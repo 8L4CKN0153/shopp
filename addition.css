@@ -1,0 +1,104 @@
+body{
+	width: 99%;
+	height: 100%;
+}
+.lk img{
+	position: relative;
+	left: 15px;
+	top: 25px;
+}
+.header{
+	width: 80%;
+	margin-left: 9%;
+	height: 100px;
+	background: #F0FFF0;
+	font-size: 65px;
+	display: block;
+	border: 10px solid #696969;
+	position: absolute;
+	top: 5px;
+	font-family: Georgia;
+	flex: 50%;
+}
+
+.header p{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 15px;
+	box-sizing: border-box;
+    padding: 20px;
+    color: 	#000000;
+
+}
+
+.menu{
+	width: 98%;
+	height: 100px;
+	margin-top: 15px;
+	background: #FFFFFF;
+	display: block;
+	border: 5px solid #696969;
+	position: absolute;
+	top: 130px;
+	flex: 50%;
+
+}
+.menu li{
+	display: inline-table;
+	padding-left: 85px;
+	padding-top: 15px;
+}
+.wind_1{
+	background: white;
+	float: left;
+	width: 250px;
+	min-height: 270px;
+	position: fixed;
+	top: 340px;
+	left: 5px;
+	border: 2px solid #123;
+}
+.wind_2{
+	background: white;
+	float: right;
+	width: 250px;
+	min-height: 270px;
+	position: fixed;
+	top: 340px;
+	right: 15px;
+	border: 2px solid #123;
+}
+.table{
+	width: 785px;
+	min-height: 50%;
+	border: 2px solid #696969;
+	position: absolute;
+	left: 275px;
+	top: 350px;
+}
+td{
+	width: 400px;
+	height: 500px;
+	text-align: center;
+	border: 4px solid #696969;
+}
+
+button {
+   background: #DCDCDC;
+   border-radius: 5px;
+   width: 98%;
+   height: 75px;
+   position: absolute;
+   left: 15px;
+   top: 260px;
+   font-size: 25px;
+   font-family: Georgia;
+   cursor: pointer;
+  }
+
+a{
+	color: #696969;
+	text-decoration: none;
+	font-size: 25px;
+
+}

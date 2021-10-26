@@ -1,0 +1,39 @@
+.menu {
+	marigin-top: 0px;
+	margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+	}
+
+.menu a {
+		margin: 30px 10px 30px;
+    box-sizing: 100px;
+		font-family: sans-serif;
+    text-decoration: none;
+		color: #9e9e9e;
+		display: inline-block;
+		padding: 5px 10px;
+		border-bottom: 3px solid #9e9e9e;
+    transition: .5s
+	}
+.menu a:hover {
+  border-bottom: 3px solid black;
+	color: black;
+}
+.menu li { display: inline; }
+
+.menu-top {
+	padding-left: 85%;
+}
+
+.menu-top li {display: inline}
+	
+.menu-top a {
+	margin-left: 20px;
+	margin-right: 20px;
+	transition: .5s
+}
+
+.menu-top a:hover{
+	filter: brightness(3%)
+}
